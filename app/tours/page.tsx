@@ -20,7 +20,6 @@ const fetchTours = async () => {
 
 async function ToursPage() {
   const data = await fetchTours();
-  console.log(data);
   return (
     <section>
       <h1 className="text-3xl mb-4">Tours</h1>
